@@ -1,0 +1,134 @@
+/* 面包屑导航 */
+.bordercrumb{
+  min-height: 24px;
+  line-height: 24px;
+  padding: 15px 0;
+}
+
+.bordercrumb>a::after{
+  content: ">";
+  display: inline-block;
+  margin: 0 10px;
+}
+.leftPan{
+  /* display: flex; */
+  float: left;
+  /* flex-wrap: nowrap; */
+  width: 419px;
+
+}
+/* 小图区域 */
+.medZoom{
+  position: relative;
+  cursor: pointer;
+  z-index: 99;
+}
+.medImg{
+  border: 1px solid #ccc;
+}
+.imgZoom{
+  width: 419px;
+  height: 419px;
+  max-width: 100%;
+}
+.medZoom>span{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #c4af66;
+  height: 32px;
+  line-height: 32px;
+  z-index: 100;
+  bottom: 0;
+}
+/* 小图轮播图 */
+.smbanner{
+   width: 419px;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 76px;
+    border: 1px solid #ccc;
+}
+/* 下边文字 */
+.share{
+  height: 38px;
+  line-height: 38px;
+}
+
+.share>.star{
+  float: right;
+  color: #999;
+}
+.share>.star>b{
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   background-position: -144px -25px;
+   vertical-align: middle;
+}
+/* 中间区域 */
+.centerPan{
+  width: 510px;
+  float: left;
+  margin: 0 20px;
+}
+.centerPan>h1{
+  font-size: 18px;
+}
+.icon_otc{
+  display: inline-block;
+  width: 32px;
+  height: 18px;
+  background: url("../img/images/icon_otc.png") no-repeat center;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+/* 新人福利 */
+.newAppend{
+  padding: 10px;
+}
+.newAppend>.Appendr{
+  float: right;
+  line-height: 32px;
+}
+.AppDown{
+  border: 1px solid #ff4000;
+  background-color: #fef8f8;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #e4393c;
+}
+.AppDowntwo{
+  background-color: #e4393c;
+  font-weight: 600;
+  color: #fff;
+  padding: 4.75px;
+  font-size: 13px;
+  margin-left: -3px;
+}
+/* 文字区域 */
+.info{
+  width: 510px;
+}
+.intr{
+  font-family: Arial,"宋体",Tahoma,Verdana,sans-serif,simsun;
+}
+.intr>li{
+  height: 24px;
+  line-height: 24px;
+  padding: 13px 0;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.l{
+  display: inline-block;
+  color: #999;
+  margin-right: 20px;
+}
+/* 幕布效果 */
+.curtain{
+  position: relative;
+  background-color: #f4f4f4;
+  width: 510px;
+}
