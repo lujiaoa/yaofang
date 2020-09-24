@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录页面</title>
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <!-- 导入js文件 -->
+  <script src="./js/login.js"></script>
+</head>
+<body>
+  <!-- 图标部分 -->
+  <div class="head w">
+    <div class="logo clearfix">
+      <a href="javascript:;"><img src="./img/images/logo.jpg" alt=""></a>
+      <div class="sub">
+        <span>用户登录</span>
+      </div>
+    </div>
+  </div>
+  <!-- 中间部分 -->
+  <div class="loginWrapper loginBg">
+    <div class="center w">
+      <a class="le" href="javascript:;"></a>
+      <div class="loginRight">
+        <div class="form_top clearfix">
+          <div class="item selected">账号登录</div>
+          <span class="line"></span>
+          <div class="item">快捷登录</div>
+        </div>
+        <div class="form_wrap">
+          <div class="form">
+            <div class="title">
+              <span>欢迎登录到学子商城</span>
+              <span class="r">没有账号？<a href="javascript:;" class="col_green">立即注册</a></span>
+            </div>
+            <div class="form_div">
+              <div class="inp">
+                <input type="text" placeholder="用户名/已验证的邮箱或手机" id="userName" class="input_big">
+                <i class="user"></i>
+              </div>
+              <div class="inp">
+                <input type="text" placeholder="登录密码" id="userPwd" class="input_big">
+                <i class="pwd"></i>
+              </div>
+              <div class="title">
+                <div class="ckdiv">
+                  <div class="ckbox">
+                    <i class=""></i>
+                  </div>
+                  记住用户名
+                </div>
+                <a href="javascript:;" class="r">忘记密码？</a>
+              </div>
+            </div>
+            <!-- 快捷登录 -->
+            <div class="for_div">
+              <div class="inp">
+                <input type="text" placeholder="请输入手机号"  class="input_big">
+              </div>
+              <div class="inp">
+                <input type="text" placeholder="请输入短信验证码"  class="input_big">
+                <a href="javascript:;" class="col_green get_code">获取验证码</a>
+              </div>
+            </div>
+            <!-- 共用部分 -->
+            <div class="title">
+              <a href="javascript:;" class="login_btn">立即登录</a>
+            </div>
+            <div class="consent">
+              <div class="ckdiv">
+                <div class="ckbox">
+                  <i class=""></i>
+                </div>
+                我同意
+                <a href="javascript:;" class="col_green">《药房网商城用户服务协议》</a>
+              </div>
+            </div>
+            <!-- other -->
+            <div class="other">
+              <p>使用其他方式登录：</p>
+              <div class="other_icon clearfix">
+                <a href="javscritp:;" class="icons qq"></a>
+                <a href="javscritp:;" class="icons wx"></a>
+                <a href="javscritp:;" class="icons zfb"></a>
+                <a href="javscritp:;" class="icons wb"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
