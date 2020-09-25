@@ -17,7 +17,7 @@
   width: 419px;
 
 }
-/* 小图区域 */
+/* 中图区域 */
 .medZoom{
   position: relative;
   cursor: pointer;
@@ -47,7 +47,25 @@
     overflow: hidden;
     margin: 10px 0;
     height: 76px;
-    border: 1px solid #ccc;
+    position: relative;
+}
+.arrowBtn{
+  position: absolute;
+  width: 28px;
+  height: 52px;
+  top: 13px;
+  /* left: 1px; */
+  background-position: -54px -78px;
+}
+.arrowBtn.right{
+  right: 0;
+  background-position: -80px -78px;
+}
+.arrowBtn.right:hover{
+  background-position: -136px -78px;
+}
+.arrowBtn.left:hover{
+  background-position: -110px -78px;
 }
 /* 下边文字 */
 .share{

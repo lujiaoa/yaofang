@@ -15,12 +15,11 @@ window.addEventListener("load", () => {
   }
   // 用于切换表头
   let item = document.querySelectorAll(".item");
-  // console.log(item)
-  item.forEach((item)=>{
-    // item.className="item"
+  console.log(item)
+  item.forEach((item,index)=>{
     item.onclick=()=>{
-      item.
-      item.className="item selected";
+      // 将样式设为默认
+      
       
     }
   })

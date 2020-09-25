@@ -195,6 +195,9 @@ a.r{
   color: #0cb95f;
 }
 /* 使用其他方式登录 */
+.other{
+  margin: 20px 0;
+}
 .other_icon{
   height: 30px;
   margin-top: 10px;
