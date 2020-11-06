@@ -158,6 +158,11 @@ i.pwd{
   background-position: -41px -25px;
   vertical-align: middle;
 }
+.ckbox>i{
+  display: block;
+  width: 16px;
+  height: 16px;
+}
 .ckbox>.checked{
   display: block;
   width: 16px;

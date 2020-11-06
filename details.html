@@ -4,9 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>商品详情页</title>
   <link rel="stylesheet" href="./css/public.css">
   <link rel="stylesheet" href="./css/details.css">
+  <!--引入阿里图库网 -->
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1758536_yw3vdyug71g.css">
+  <script src="./js/details.js"></script>
 </head>
 
 <body>
@@ -30,7 +33,13 @@
         <!-- 轮播图 -->
         <div class="smbanner">
           <ul class="bannerImg">
-            <li><img src="./" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
+            <li class="small_img"><img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_120x120.jpg" alt=""></li>
           </ul>
           <div class="arrowBtn icons left"></div>
           <div class="arrowBtn icons right"></div>
@@ -43,6 +52,7 @@
           <span>商品编号：575184</span>
         </div>
       </div>
+      <!-- 中间区域 -->
       <div class="centerPan">
         <h1>
           <i class="icon_otc"></i>
@@ -71,11 +81,254 @@
           </ul>
           <!-- 幕布效果 -->
           <div class="curtain">
-            <dl class="sale">
-              <dt class="title">优惠活动</dt>
-              <dd>满免邮活动优惠<i></i></dd>
-            </dl>
-            
+            <ul>
+              <li>
+                <span class="detail-title">优惠活动</span>
+                <span class="">优惠满减活动 <i class="icon"></i></span>
+              </li>
+            </ul>
+          </div>
+          <!-- 运费区域 -->
+
+        </div>
+      </div>
+      <!-- 右边区域 -->
+      <div class="rightPan">
+        <div class="title1">
+          <a href="javascript:;"><img src="./img/picture/noyaodian_logo.png" alt=""></a>
+          <p class="morebtn">义乌市萱草堂药房有限公司 <i class="icons"></i></p>
+        </div>
+        <!-- 未点击的时候显示 -->
+        <div class="details">
+          <div class="details_info">
+            <div class="info_item clearbor">
+              <p class="info_item_text">服务</p>
+              <p class="info_item_score">5.0</p>
+            </div>
+            <div class="info_item">
+              <p class="info_item_text">服务</p>
+              <p class="info_item_score">5.0</p>
+            </div>
+            <div class="info_item">
+              <p class="info_item_text">服务</p>
+              <p class="info_item_score">5.0</p>
+            </div>
+            <div class="info_item">
+              <p class="info_item_text">服务</p>
+              <p class="info_item_score">5.0</p>
+            </div>
+          </div>
+          <div class="details_down">
+            <p>店铺评分：</p>
+            <p>退单率：0.0%</p>
+            <p>发货时间：8.1小时</p>
+            <p>营业时间：8:00-22:00</p>
+            <p>店铺地址：浙江省金华市义乌市义乌市稠江街道后申塘村6幢</p>
+          </div>
+        </div>
+        <!-- 点击以后显示 -->
+        <div class="details-active">
+          <div class="details-active-info">
+            <i class="icons yrz"></i>
+            <i class="icons yyzz" ></i>
+            <i class="icons jyxkz"></i>
+          </div>
+          <div class="details_down">
+            <p>营业执照：656456465464</p>
+            <p>GSP证号：C-ZJ-15-07-0399</p>
+            <p>经营许可证：浙DA5790118</p>
+            <p>经营范围：中药材、中药饮片、中成药、化学药制剂、抗生素制剂、生化药品。</p>
+          </div>
+        </div>
+        <div class="storeEnter">
+          <a>进入店铺</a>
+        </div>
+      </div>
+    </div>
+    <!-- 下半部分 -->
+    <div class="detailinfo clearfix">
+      <!-- 左边部分 -->
+      <div class="left-details">
+          <div class="box-item">
+            <h4>店内搜索</h4>
+            <div class="box-inner">
+              <input type="text" placeholder="请输入关键字查询"   id="searchinput">
+              <button id="searchBtn" class="iconfont icon-chazhao"></button>
+            </div>
+          </div>
+          <div class="box-item">
+            <h4>相关分类</h4>
+            <div class="box-inner box-flex">
+              <a href="javascropt:;" class="box-info">维生素</a>
+              <a href="javascropt:;" class="box-info">维生素</a>
+              <a href="javascropt:;" class="box-info">维生素</a>
+              <a href="javascropt:;" class="box-info">维生素</a>
+              <a href="javascropt:;" class="box-info">维生素</a>
+              <a href="javascropt:;" class="box-info">维生素</a>
+            </div>
+          </div>
+          <div class="box-item">
+            <h4>商家推荐</h4>
+            <ul class="goodsList">
+              <li>
+                <a href="javascript:;" class="imgWrapper">
+                <img src="//c1.yaofangwang.net/19/3057/2a6a00e4e849ff1e1c7396503fb300f9.jpg_300x300.jpg" alt="">
+              </a>
+                <a href="javascript:;" class="goods-title">星鲨 维生素D滴剂</a>
+                <p class="goods-spec">400Ux10粒x3板/盒</p>
+                <p class="goods-price"><span >￥55.5</span></p>
+              </li>
+            </ul>
+          </div>
+      </div>
+      <!-- 右边部分 -->
+      <div class="right-details">
+        <div class="tabnav">
+          <ul class="navul clearfix">
+            <li><a href="#cur" class="is_active">商品说明</a></li>
+            <li><a href="#cur">服务保障</a></li>
+            <li><a href="#cur">常见问题</a></li>
+            <li><a href="#cur">真伪查询</a></li>
+          </ul>
+        </div>
+        <div class="info-tip">
+          <i class="iconfont icon-jinggao"></i>
+          安全提示：如商家要求您在淘宝或其他网站下单发货，商城将不承诺任何服务保障！举报电话：400-8810-120
+        </div>
+        <div class="goods-instr" id="cur">
+          <div class="title">
+            <span><i class="iconfont icon-shuomingshu"></i></span>
+            <h2>星鲨 维生素D滴剂商品详情</h2>
+          </div>
+        </div>
+        <div class="goodsInstr-info clearfix">
+          <div class="left-info">
+            <div class="info-wrapper">
+              <span class="Merchants">通用名称:</span>
+              <span class="MerInfo">维生素D滴剂</span>
+            </div>
+            <div class="info-wrapper">
+              <span class="Merchants">通用名称:</span>
+              <span class="MerInfo">维生素D滴剂</span>
+            </div>
+            <div class="info-wrapper">
+              <span class="Merchants">通用名称:</span>
+              <span class="MerInfo">维生素D滴剂</span>
+            </div>
+          </div>
+          <div class="right-info">
+            <div class="info-wrapper">
+              <span class="Merchants">通用名称:</span>
+              <span class="MerInfo">维生素D滴剂</span>
+            </div>
+            <div class="info-wrapper">
+              <span class="Merchants">通用名称:</span>
+              <span class="MerInfo">维生素D滴剂</span>
+            </div>
+            <div class="info-wrapper">
+              <span class="Merchants">通用名称:</span>
+              <span class="MerInfo">维生素D滴剂</span>
+            </div>
+          </div>
+        </div>
+        <div class="info-tip default">
+          <i class="iconfont icon-jinggao"></i>
+          友情提示：以下星鲨 维生素D滴剂说明书信息由药房网商城手工录入，可能会与实际有所误差，仅供参考，具体请以实际商品为准。
+        </div>
+        <table class="table">
+            <tr>
+              <td><div class="tableinfo">【执行标准】</div></td>
+              <td class="desc">国家药品标准WS-10001-(HD-1441)-2003</td>
+            </tr>
+            <tr>
+              <td><div class="tableinfo">【性状】</div></td>
+              <td class="desc">国家药品标准WS-10001-(HD-1441)-2003</td>
+            </tr>
+            <tr>
+              <td><div class="tableinfo">【作用类别】</div></td>
+              <td class="desc">国家药品标准WS-10001-(HD-1441)-2003</td>
+            </tr>
+            <tr>
+              <td><div class="tableinfo">【药理毒理】</div></td>
+              <td class="desc">国家药品标准WS-10001-(HD-1441)-2003</td>
+            </tr>
+            <tr>
+              <td><div class="tableinfo">【执行标准】</div></td>
+              <td class="desc">国家药品标准WS-10001-(HD-1441)-2003</td>
+            </tr>
+            <tr>
+              <td><div class="tableinfo">说明书图解</div></td>
+              <td class="desc">
+                <a href="javascript:;" class="tableImg">
+                  <img src="//c1.yaofangwang.net/19/3267/a11d4c36626edad022f7b9cbe2f71ebb.jpg_300x300.jpg" alt="">
+                </a>
+              </td>
+            </tr>
+        </table>
+        <!-- 图解部分//////////////////////////// -->
+        <div class="title">
+          <span><i class="iconfont icon-shuomingshu"></i></span>
+          <h2>星鲨 维生素D滴剂商品详情</h2>
+        </div>
+        <div class="img-list">
+          <a href="javascript:;">
+            <img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_syp.jpg" alt="">
+          </a>
+          <a href="javascript:;">
+            <img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_syp.jpg" alt="">
+          </a>
+          <a href="javascript:;">
+            <img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_syp.jpg" alt="">
+          </a>
+          <a href="javascript:;">
+            <img src="./img/picture/2a6a00e4e849ff1e1c7396503fb300f9.jpg_syp.jpg" alt="">
+          </a>
+        </div>
+        <div class="title">
+          <span><i class="iconfont icon-shuomingshu"></i></span>
+          <h2>义乌市萱草堂药房有限公司店铺实景</h2>
+        </div>
+        <div class="image-list2">
+          <a href="javascript:;" target="_bank">
+            <img src="./img/picture/d0e7a53e37198a8288b1df99b3c69e20.jpg@800x800.jpg" alt="">
+          </a>
+        </div>
+        <!-- ////// -->
+        <div class="title">
+          <span><i class="iconfont icon-shuomingshu"></i></span>
+          <h2>义乌市萱草堂药房有限公司商家资质</h2>
+        </div>
+        <div class="image-list2">
+          <a href="javascript:;" target="_bank">
+            <img src="./img/picture/6fd429e4adf42a70089a6facd757f12b.jpg@800x800.jpg" alt="">
+          </a>
+        </div>
+        <!-- ////// -->
+
+        <!-- 服务保障 -->
+        <div class="serve-security">
+          <div class="title">
+            <span> 
+              <i class="iconfont icon-shuomingshu"></i>
+            </span>
+            <h2>服务保障</h2>
+          </div>
+          <!--  -->
+          <div class="serve-detail">
+            <div class="serve-item clearfix">
+              <div class="icons real"></div>
+              <div class="item-text">
+                <h5>正品保证</h5>
+                <p>药房网商城在售商品均由正规实体签约商家供货，商家提供正品保证。在购物过程中发现任何商家有违规行为，请直接向我们投诉举报！药房网商城在售商品均由正规实体签约商家供货，商家提供正品保证。在购物过程中发现任何商家有违规行为，请直接向我们投诉举报</p>
+              </div>
+            </div>
+            <div class="serve-item clearfix">
+              <div class="icons invoice"></div>
+              <div class="item-text">
+                <h5>正品保证</h5>
+                <p>药房网商城在售商品均由正规实体签约商家供货，商家提供正品保证。在购物过程中发现任何商家有违规行为，请直接向我们投诉举报！</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
